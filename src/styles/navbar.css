@@ -1,0 +1,14 @@
+.navbar{
+    background: #333;
+    padding: 1rem;
+    position: sticky; /* Ensure it stays at the top */
+    top: 0;
+    z-index: 1000; /* Make sure it's above other elements */
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #fff;
+}
